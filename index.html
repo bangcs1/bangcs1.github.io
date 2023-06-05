@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ChatGPT dành cho người không có tài khoản</title>
+  <meta name="description" content="Website cho phép người dùng sử dụng ChatGPT miễn phí!">
+  <meta name="keywords" content="ChatGPT, chatbot, AI">
+  <meta property="og:url" content="https://chatgpt.bitmdg.repl.co" />
+  <meta property="og:image" content="https://i.imgur.com/FcTEIRQ.jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="L.V. Bằng">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="icon" type="image/png" href="avatar.jpg">
+</head>
+<body>
+	<div class="chat-window">
+		<div class="chat-header">
+			<h1>Chat Với ChatGPT</h1>
+		</div>
+		<div class="chatHistory" id="chatHistory">
+		</div>
+		<div class="chat-input">
+			<input type="text" id="messageinput" placeholder="Nhập tin nhắn của bạn...">
+			<button id="sendbutton">Gửi</button>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
